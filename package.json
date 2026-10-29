@@ -1,0 +1,11 @@
+{
+  "name": "cypress-checkout",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run --browser electron",
+    "open": "cypress open",
+    "test:checkout": "cypress run --browser electron --spec cypress/e2e/checkout-regression.cy.js --headed"
+  },
+  "devDependencies": { "cypress": "15.5.0" }
+}
